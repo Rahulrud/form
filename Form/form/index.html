@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <title>Form</title>
+</head>
+
+<body class="body">
+    <h1>Course Regisration Form</h1>
+    <fieldset>
+        <legend><label class="personal">Personal Infomation</label></legend>
+        <table>
+            <tr>
+                <td>
+                    <label class="label">First Name</label>
+                </td>
+                <td> 
+                    <input class="b1" type="text" placeholder="Firstname" id="Firstname" required>
+                    <p>Enter your Name</p>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label class="label">Surname</label>
+                </td>
+                <td> 
+                    <input class="b2" placeholder="Surname" id="Surname" optional>
+                    <p>Enter your Surname</p>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label class="label">Mobile Number</label> 
+                </td>
+                <td> <input  class="b1" type="text" placeholder="Phone Number" id=" number" required>
+                    <p>Enter your Phonenumber</p>
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <label class="label">Email</label>
+                </td>
+                <td> <input  class="b1" type="email" placeholder="Email" id="email" required> 
+                    <p>Enter your Email</p>
+                </td>
+            </tr>
+    
+
+            <tr>
+                <td>
+                    <label class=" label">Password</label>
+                </td>
+                <td> <input  class="b1" type="password" placeholder="min 8 character" id="password" required>
+                     <p>Enter your Password </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label class=" label">Confirm Password</label>
+                </td>
+                <td> <input  class="b1" type="password" placeholder="min 8 character" id="password" required>
+                    <p>Re-Enter your Password</p>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label class="label">DOB</label>
+                </td>
+                <td> <input  class="b3" type="date" placeholder="" id="" required>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label class="label">Age</label>
+                </td>
+                <td>
+                    <input class="b9" type="number" placeholder="age" id="" max="100" min="18" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label class=" label">Gender</label> &nbsp;&nbsp;
+
+                </td>
+                <td>
+                    <input type="radio" name="gender" id="M" value="Male"><label for="M">Male</label>
+                    <input type="radio" name="gender" id="F" value="Female"><label for="F">Female</label>
+                    <input type="radio" name="gender" id="O" value="Other"><label for="O">Other</label>
+                </td>
+            </tr>
+   
+
+            <tr>
+                <td>
+                    <label class=" label">Select Country</label>
+
+                </td>
+                <td>
+                    <select class="b4" id="dropdown" name="options">
+                        <option value="option1">India</option>
+                        <option value="option2">Usa</option>
+                        <option value="option3">Nepal</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label class="label">Upload Image</label> 
+                </td>
+                <td>
+                    <input class="b5" type="file" id="imageUpload" name="image" placeholder="Choosen File">
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <br>
+                    <button class="b6">Reset</button>
+                </td>
+
+            </tr>
+
+
+
+
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend><label>Course Details</label></legend>
+        <table>
+            <tr>
+                <td>
+                    <label class="label">Institute Name</label>
+                </td>
+                <td>
+                    <input class="b10" type="text"  placeholder="TAP ACADEMY" readonly>
+
+                </td>
+                
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label class=" label">Select Course</label>
+
+                </td>
+                <td>
+                    <select class="b7" id="dropdown" name="option">
+                        <option value="option1">Select</option>
+                        <option value="option2">Java Full Stack</option>
+                        <option value="option3">Python Full Stack</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label class=" label">Delivery Mode</label>
+
+                </td>
+                <td>
+                    <input type="radio" name="deliverymode" id="on" value="online"><label for="ON">Online</label>
+                    <input type="radio" name="deliverymode" id="of" value="offline"><label for="OF">Offline</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label class=" label">comments</label>
+                    <br>
+                    <textarea class="comment" name="" id="" cols="0" rows=" 3"></textarea>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <tr>
+        <td>
+            &nbsp;&nbsp; <a rel="html" href="submit.html"><button class="b8">Submit</button>
+            </a>
+
+        </td>
+    </tr>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+
+.body {
+    background: rgb(34, 193, 195);
+    background: radial-gradient(circle, rgba(34, 193, 195, 1) 0%, rgba(225, 204, 119, 1) 85%, rgba(249, 187, 48, 1) 96%,
+            rgba(190, 189, 89, 1) 100%, rgba(253, 187, 45, 1) 100%, rgba(216, 152, 15, 1) 100%, rgba(214, 173, 84, 1) 100%);
+
+}
+fieldset{
+    text-align: left;
+    width: 600px;
+    border: solid black;
+    border-radius: 15px;
+}
+legend{
+    color: black;
+    font-size:larger;
+    font-weight:bolder;
+}
+.label{
+    font-size: large;
+    font-weight:550;
+}
+.b1{
+    border-radius: 5px;
+    border: solid  red;
+    transition-property: all;
+    transition-duration: 1s;
+    
+}
+.b1:hover{
+    background-color: rgb(10, 233, 218);
+    transition: all .5s ease-in ;
+    
+}
+.b2{
+    border-radius: 5px;   
+    border: solid red; 
+    transition-property: all;
+    transition-duration: 1s;
+}
+.b2:hover{
+    background-color: aqua;
+    transition: all .5s ease-in ;
+}
+.b3{
+    border-radius: 5px; 
+    border: solid  red;
+}
+.b4{
+    font-weight: bold;
+    font-size:small;
+    border-radius: 5px; 
+    width: 100px; 
+    transition-property: all;
+    transition-duration: 1s;
+}
+.b4:hover{
+    
+    background-color: rgb(237, 154, 203);
+    transition: all .5s ease-in ;
+}
+
+.b5{
+    border-radius: 5px; 
+}
+.b6{
+    font-weight: bold;
+    font-size:small;
+    border-radius: 5px; 
+    transition-property: all;
+    transition-duration: 1s;
+}
+.b6:hover{
+    background-color: crimson;
+    transition: all .5s ease-in ;
+}
+.b7{
+    font-weight: bold;
+    font-size:small;
+        border-radius: 5px; 
+    transition-property: all;
+    transition-duration: 1s;
+}
+.b7:hover{
+    background-color: rgb(240, 236, 156);
+    transition: all .5s ease-in ;
+}
+.b8{
+    font-weight: bold;
+    font-size:small;
+    border-radius: 5px; 
+    transition-property: all;
+    transition-duration: 1s;
+}
+.b8:hover{
+    background-color: rgb(130, 133, 248);
+    transition: all .5s ease-in ;
+}
+.b9{
+    width: 50px;
+    border: solid  red;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.b9:hover{
+    background-color: aqua;
+    transition: all .5s ease-in 
+}
+.b10{
+    font-weight: bolder;
+    text-align: left;
+    color: black;
+    width: 100px;
+    border-radius: 5px;
+    border: solid red;
+    background-color: aqua;
+}
+.comment{
+    border-radius: 5px;
+}
+.comment:hover{
+    background-color: antiquewhite;
+}
+
+/* Paragraph */
+p{
+    display: none;
+    background-color: aquamarine;
+}
+input:hover + p{
+    display: inline;
+}
+/* submit */
+
+.submit1{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(121,69,181,1) 0%, rgba(50,152,190,0.566951566951567) 18%, rgba(207,139,223,0.5683760683760684) 50%, rgba(224,218,208,1) 100%);
+}
+.head1{
+    text-align: center;
+    position: relative;
+    margin-top: 200px;
+}
+
+.head2{
+    text-align: center;
+}
